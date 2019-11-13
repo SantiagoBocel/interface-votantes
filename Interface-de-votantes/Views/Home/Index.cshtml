@@ -10,7 +10,11 @@
             <form action="/Home/Index" method="post">
                 <div class="form-group">
                     <label for="numberS">DPI:</label>
-                    <input type="text" name="dpi" />
+                    <input type="number" name="dpi" placeholder="Ej, 2320556340102 " required />
+                    <!--Se cambio el tipo text a number para que solo se puedan ingresar numeros
+                    ,se agrego el campo requiered para que no se pueda dejar el box en blanco y placeholder para
+                    mostrar un ejemplo-->
+                    >
                 </div>
                 <div class="form-group">
                     <label for="numberS">Departamento:</label>
@@ -80,3 +84,14 @@
         </div>
     </div>
 }
+
+<!--Se agrego el codigo de javascript para mandar alertas-->
+@if (ViewBag.Message != null)
+{
+    <script type="text/javascript">
+    window.onload = function () {
+        alert("@ViewBag.Message");
+    };
+    </script>
+}
+

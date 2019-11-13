@@ -15,17 +15,29 @@ namespace Interface_de_votantes.Controllers
 
         public IActionResult Index(string dpi, int depto, int presi, int alcalde, int boletadiputadodistrito, int boletadiputadonacional, string fecha)
         {
-            Temp.Listado.Add(new Votantes()
+            if (dpi >= 1000000000000 && dpi <= 9999999999999)// condicion para que unicamente con 13 cifras se pueda mandar el dpi
             {
-                id = Temp.Listado.Count,
-                depto = depto,
-                dpi = dpi,
-                boleta_presidente = presi,
-                boleta_alcalde = alcalde,
-                boleta_diputados_distrito = boletadiputadodistrito,
-                boleta_diputado_nacional = boletadiputadonacional,
-                fecha_hora = fecha
-            });
+                Temp.Listado.Add(new Votantes()
+                {
+                    id = Temp.Listado.Count,
+                    depto = depto,
+                    dpi = dpi,
+                    boleta_presidente = presi,
+                    boleta_alcalde = alcalde,
+                    boleta_diputados_distrito = boletadiputadodistrito,
+                    boleta_diputado_nacional = boletadiputadonacional,
+                    fecha_hora = fecha,
+
+                    ViewBag.Message = "El dpi ha sido ingresado al registro"//mensaje para el script
+
+            })
+             ;
+            }
+            else if (dpi > 9999999999999 || dpi < 1000000000000)// condicion para el caso en el que no se ingresen 13 cifras mande el sig mensaje 
+            {
+                ViewBag.Message = "El numero de DPI no ha sido ingresado, debe tener exactamente 13 cifras";
+            }
+
             return View("Index", Temp);
         }
 
