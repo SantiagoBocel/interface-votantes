@@ -12,21 +12,28 @@ namespace Interface_de_votantes.Controllers
     public class HomeController : Controller
     {
         Storage Temp = Storage.GetInstance();
+        DateTime thisDay = DateTime.Today;
 
-        public IActionResult Index(string dpi, int depto, int presi, int alcalde, int boletadiputadodistrito, int boletadiputadonacional, string fecha)
+        public IActionResult Index(string dpi, int depto, int presi, int alcalde, int boletadiputadodistrito, int boletadiputadonacional)
         {
-            Temp.Listado.Add(new Votantes()
-            {
-                id = Temp.Listado.Count,
-                depto = depto,
-                dpi = dpi,
-                boleta_presidente = presi,
-                boleta_alcalde = alcalde,
-                boleta_diputados_distrito = boletadiputadodistrito,
-                boleta_diputado_nacional = boletadiputadonacional,
-                fecha_hora = fecha
-            });
+            ViewBag.FechaAlta = new DateTime(2008, 12, 10);
+
+            if(dpi == null){ 
+                return View("Index", Temp);
+            }else{         
+                Temp.Listado.Add(new Votantes()
+                {
+                    id = Temp.Listado.Count,
+                    depto = depto,
+                    dpi = dpi,
+                    boleta_presidente = presi,
+                    boleta_alcalde = alcalde,
+                    boleta_diputados_distrito = boletadiputadodistrito,
+                    boleta_diputado_nacional = boletadiputadonacional,
+                    fecha_hora = thisDay.ToString()
+                });
             return View("Index", Temp);
+            }
         }
 
         public IEnumerable<Votantes> Get()

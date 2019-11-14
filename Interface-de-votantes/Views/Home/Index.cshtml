@@ -2,81 +2,112 @@
     ViewData["Title"] = "Home Page";
 }
 @model Interface_de_votantes.Services.Storage
+    <script src="~/js/jquery-1.11.1.min.js" asp-append-version="true"></script>
+    <script src="~/js/jquery.jclock.js" asp-append-version="true"></script>
+
+  <script type="text/javascript">
+    $(function($) {
+      var options1 = {
+        format: '%A %B %d, %Y %I:%M:%S %p' // 12-hour
+      }
+      $('#jclock1').jclock(options1);
+    });
+  </script>
 @if (Model != null)
 {
     <div class="container">
-        <div class="form-group" style="width: 300px; margin: 0 auto;">
-            <h2>Ingreso de Votaciones</h2>
-            <form action="/Home/Index" method="post">
+        <div class="col-md-8">
+            <div class="row">
                 <div class="form-group">
-                    <label for="numberS">DPI:</label>
-                    <input type="text" name="dpi" />
+                    <h2>Ingreso de Votaciones</h2>
+                    <form action="/Home/Index" method="post">
+                        <div class="form-group">
+                            <label for="numberS">DPI:</label>
+                            <input type="text" name="dpi" />
+                        </div>
+                        <div class="form-group">
+                            <label for="numberS">Departamento:</label>
+                            <select class="form-control" name="depto">
+                                <option>1</option>
+                                <option>2</option>
+                                <option>3</option>
+                                <option>4</option>
+                                <option>5</option>
+                                <option>6</option>
+                                <option>7</option>
+                                <option>8</option>
+                                <option>9</option>
+                                <option>10</option>
+                                <option>11</option>
+                                <option>12</option>
+                                <option>13</option>
+                                <option>14</option>
+                                <option>15</option>
+                                <option>20</option>
+                                <option>21</option>
+                                <option>22</option>
+                            </select>
+                        </div>
+                        <div class="form-group">
+                            <label for="numberS">Presidente:</label>
+                            <select class="form-control" name="presi">
+                                <option>1</option>
+                                <option>2</option>
+                                <option>3</option>
+                                <option>4</option>
+                            </select>
+                        </div>
+                        <div class="form-group">
+                            <label for="numberS">Alcalde: </label>
+                            <select class="form-control" name="alcalde">
+                                <option>1</option>
+                                <option>2</option>
+                                <option>3</option>
+                                <option>4</option>
+                            </select>
+                        </div>
+                        <div class="form-group">
+                            <label for="numberS">Diputado Distrital:</label>
+                            <select class="form-control" name="boletadiputadodistrito">
+                                <option>1</option>
+                                <option>2</option>
+                                <option>3</option>
+                                <option>4</option>
+                            </select>
+                        </div>
+                        <div class="form-group">
+                            <label for="numberS">Diputado Nacional:</label>
+                            <select class="form-control" name="boletadiputadonacional">
+                                <option>1</option>
+                                <option>2</option>
+                                <option>3</option>
+                                <option>4</option>
+                            </select>
+                        </div>
+                        <div class="form-group">
+                           <p><span id="jclock1"></span></p>
+                        </div>
+                        <div class="form-group">
+                        <button type="submit" value="enviar" class="btn btn-primary">Enviar información</button>
+                        </div>
+                    </form>
                 </div>
-                <div class="form-group">
-                    <label for="numberS">Departamento:</label>
-                    <select class="form-control" name="depto">
-                        <option>1</option>
-                        <option>2</option>
-                        <option>3</option>
-                        <option>4</option>
-                        <option>5</option>
-                        <option>6</option>
-                        <option>7</option>
-                        <option>8</option>
-                        <option>9</option>
-                        <option>10</option>
-                        <option>11</option>
-                        <option>12</option>
-                        <option>13</option>
-                        <option>14</option>
-                        <option>15</option>
-                        <option>20</option>
-                        <option>21</option>
-                        <option>22</option>
-                    </select>
-                </div>
-                <div class="form-group">
-                    <label for="numberS">Presidente:</label>
-                    <select class="form-control" name="presi">
-                        <option>1</option>
-                        <option>2</option>
-                        <option>3</option>
-                        <option>4</option>
-                    </select>
-                </div>
-                <div class="form-group">
-                    <label for="numberS">Alcalde: </label>
-                    <select class="form-control" name="alcalde">
-                        <option>1</option>
-                        <option>2</option>
-                        <option>3</option>
-                        <option>4</option>
-                    </select>
-                </div>
-                <div class="form-group">
-                    <label for="numberS">Diputado Distrital:</label>
-                    <select class="form-control" name="boletadiputadodistrito">
-                        <option>1</option>
-                        <option>2</option>
-                        <option>3</option>
-                        <option>4</option>
-                    </select>
-                </div>
-                <div class="form-group">
-                    <label for="numberS">Diputado Nacional:</label>
-                    <select class="form-control" name="boletadiputadonacional">
-                        <option>1</option>
-                        <option>2</option>
-                        <option>3</option>
-                        <option>4</option>
-                    </select>
-                </div>
-                <div class="form-group">
-                    <label for="numberS">Fecha:</label>
-                    <input type="text" name="fecha" id="txtDeporte" />
-                </div>
-                <button type="submit" value="enviar" class="btn btn-primary">Enviar información</button>
-            </form>
+            </div>
+        </div>
+        <div class="col-md-8 column" >
+            <row>
+            <p>Un sistema de votación es una forma de elegir entre varias opciones basado en la decisión de los votantes.
+            El acto de votar tiene su uso más conocido en las elecciones políticas, en las que se elige de entre los candidatos a cargos públicos. 
+            Las votaciones pueden emplearse también para conceder premios, elegir entre diferentes planes de acción o, mediante un programa informático, 
+            determinar la solución a problemas complejos.</p>
+            <p>Un sistema de votación consiste en las reglas que rigen cómo pueden expresar sus deseos los 
+            votantes y como se agregan estos deseos para llegar a un resultado final. El campo que estudia los sistemas de votación se llama teoría de 
+            votaciones, un subcampo de las ciencias políticas y las matemáticas. La teoría de votaciones empezó a desarrollarse en el siglo 18 y
+            ha producido muchas propuestas de sistemas de votación.</p>
+            <p>La regla de la mayoría dice que si más de la mitad de los votantes se decantan 
+            por una de las opciones, ésta debe ser el resultado único de la elección. Éste se puede considerar como el sistema de votación más sencillo. 
+            Pero muchas votaciones requieren reglas más complejas, especialmente si hay más de dos resultados posibles.</p>
+            </row>
         </div>
     </div>
 }

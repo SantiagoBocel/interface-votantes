@@ -28,3 +28,35 @@ C:\Users\Plaza Pública\Desktop\Estructuras de datos I\Proyecto\2017\Interface-d
 C:\Users\Plaza Pública\Desktop\Estructuras de datos I\Proyecto\2017\Interface-de-votantes\Interface-de-votantes\obj\Debug\netcoreapp2.2\Interface-de-votantes.dll
 C:\Users\Plaza Pública\Desktop\Estructuras de datos I\Proyecto\2017\Interface-de-votantes\Interface-de-votantes\obj\Debug\netcoreapp2.2\Interface-de-votantes.pdb
 C:\Users\Plaza Pública\Desktop\Estructuras de datos I\Proyecto\2017\Interface-de-votantes\Interface-de-votantes\obj\Debug\netcoreapp2.2\Interface-de-votantes.csproj.CopyComplete
+C:\Users\soporte\Desktop\Estructura_de_Datos_ I\interface-votantes\Interface-de-votantes\bin\Debug\netcoreapp2.2\Interface-de-votantes.deps.json
+C:\Users\soporte\Desktop\Estructura_de_Datos_ I\interface-votantes\Interface-de-votantes\bin\Debug\netcoreapp2.2\Interface-de-votantes.runtimeconfig.json
+C:\Users\soporte\Desktop\Estructura_de_Datos_ I\interface-votantes\Interface-de-votantes\bin\Debug\netcoreapp2.2\Interface-de-votantes.runtimeconfig.dev.json
+C:\Users\soporte\Desktop\Estructura_de_Datos_ I\interface-votantes\Interface-de-votantes\bin\Debug\netcoreapp2.2\Interface-de-votantes.dll
+C:\Users\soporte\Desktop\Estructura_de_Datos_ I\interface-votantes\Interface-de-votantes\bin\Debug\netcoreapp2.2\Interface-de-votantes.pdb
+C:\Users\soporte\Desktop\Estructura_de_Datos_ I\interface-votantes\Interface-de-votantes\bin\Debug\netcoreapp2.2\Interface-de-votantes.Views.dll
+C:\Users\soporte\Desktop\Estructura_de_Datos_ I\interface-votantes\Interface-de-votantes\bin\Debug\netcoreapp2.2\Interface-de-votantes.Views.pdb
+C:\Users\soporte\Desktop\Estructura_de_Datos_ I\interface-votantes\Interface-de-votantes\obj\Debug\netcoreapp2.2\Interface-de-votantes.csprojAssemblyReference.cache
+C:\Users\soporte\Desktop\Estructura_de_Datos_ I\interface-votantes\Interface-de-votantes\obj\Debug\netcoreapp2.2\Interface-de-votantes.RazorAssemblyInfo.cache
+C:\Users\soporte\Desktop\Estructura_de_Datos_ I\interface-votantes\Interface-de-votantes\obj\Debug\netcoreapp2.2\Interface-de-votantes.RazorAssemblyInfo.cs
+C:\Users\soporte\Desktop\Estructura_de_Datos_ I\interface-votantes\Interface-de-votantes\obj\Debug\netcoreapp2.2\Interface-de-votantes.AssemblyInfoInputs.cache
+C:\Users\soporte\Desktop\Estructura_de_Datos_ I\interface-votantes\Interface-de-votantes\obj\Debug\netcoreapp2.2\Interface-de-votantes.AssemblyInfo.cs
+C:\Users\soporte\Desktop\Estructura_de_Datos_ I\interface-votantes\Interface-de-votantes\obj\Debug\netcoreapp2.2\Interface-de-votantes.TagHelpers.input.cache
+C:\Users\soporte\Desktop\Estructura_de_Datos_ I\interface-votantes\Interface-de-votantes\obj\Debug\netcoreapp2.2\Interface-de-votantes.TagHelpers.output.cache
+C:\Users\soporte\Desktop\Estructura_de_Datos_ I\interface-votantes\Interface-de-votantes\obj\Debug\netcoreapp2.2\Interface-de-votantes.RazorCoreGenerate.cache
+C:\Users\soporte\Desktop\Estructura_de_Datos_ I\interface-votantes\Interface-de-votantes\obj\Debug\netcoreapp2.2\Interface-de-votantes.RazorTargetAssemblyInfo.cache
+C:\Users\soporte\Desktop\Estructura_de_Datos_ I\interface-votantes\Interface-de-votantes\obj\Debug\netcoreapp2.2\Interface-de-votantes.RazorTargetAssemblyInfo.cs
+C:\Users\soporte\Desktop\Estructura_de_Datos_ I\interface-votantes\Interface-de-votantes\obj\Debug\netcoreapp2.2\Interface-de-votantes.Views.pdb
+C:\Users\soporte\Desktop\Estructura_de_Datos_ I\interface-votantes\Interface-de-votantes\obj\Debug\netcoreapp2.2\Interface-de-votantes.dll
+C:\Users\soporte\Desktop\Estructura_de_Datos_ I\interface-votantes\Interface-de-votantes\obj\Debug\netcoreapp2.2\Interface-de-votantes.pdb
+C:\Users\soporte\Desktop\Estructura_de_Datos_ I\interface-votantes\Interface-de-votantes\obj\Debug\netcoreapp2.2\Interface-de-votantes.csproj.CopyComplete
+C:\Users\soporte\Desktop\Estructura_de_Datos_ I\interface-votantes\Interface-de-votantes\bin\Debug\netcoreapp2.2\appsettings.Development.json
+C:\Users\soporte\Desktop\Estructura_de_Datos_ I\interface-votantes\Interface-de-votantes\bin\Debug\netcoreapp2.2\appsettings.json
+C:\Users\soporte\Desktop\Estructura_de_Datos_ I\interface-votantes\Interface-de-votantes\bin\Debug\netcoreapp2.2\Properties\launchSettings.json
+C:\Users\soporte\Desktop\Estructura_de_Datos_ I\interface-votantes\Interface-de-votantes\obj\Debug\netcoreapp2.2\Razor\Views\Home\Index.cshtml.g.cs
+C:\Users\soporte\Desktop\Estructura_de_Datos_ I\interface-votantes\Interface-de-votantes\obj\Debug\netcoreapp2.2\Razor\Views\Home\Privacy.cshtml.g.cs
+C:\Users\soporte\Desktop\Estructura_de_Datos_ I\interface-votantes\Interface-de-votantes\obj\Debug\netcoreapp2.2\Razor\Views\Shared\Error.cshtml.g.cs
+C:\Users\soporte\Desktop\Estructura_de_Datos_ I\interface-votantes\Interface-de-votantes\obj\Debug\netcoreapp2.2\Razor\Views\Shared\_CookieConsentPartial.cshtml.g.cs
+C:\Users\soporte\Desktop\Estructura_de_Datos_ I\interface-votantes\Interface-de-votantes\obj\Debug\netcoreapp2.2\Razor\Views\Shared\_Layout.cshtml.g.cs
+C:\Users\soporte\Desktop\Estructura_de_Datos_ I\interface-votantes\Interface-de-votantes\obj\Debug\netcoreapp2.2\Razor\Views\Shared\_ValidationScriptsPartial.cshtml.g.cs
+C:\Users\soporte\Desktop\Estructura_de_Datos_ I\interface-votantes\Interface-de-votantes\obj\Debug\netcoreapp2.2\Razor\Views\_ViewImports.cshtml.g.cs
+C:\Users\soporte\Desktop\Estructura_de_Datos_ I\interface-votantes\Interface-de-votantes\obj\Debug\netcoreapp2.2\Razor\Views\_ViewStart.cshtml.g.cs
